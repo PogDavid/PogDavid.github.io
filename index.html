@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <body>
+<meta name="viewport" content="width=device-width, initial-scale=1">  
 <style>
 .center {
   text-align: center;
@@ -10,17 +11,37 @@
   margin-left: auto;
   margin-right: auto;
 }
-  body {
-  background-video: url("Welcome to David'S.mp4");<video width="740" height="416" controls>
-  <source src="Welcome to David'S.mp4" type="video/mp4">
-  <source src="movie.ogg" type="video/ogg">
-</video>
+  
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+  font-size: 17px;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+  
+  
+
     h3 {
       color:"White"}
 </style>  
 <head> 
 <body>
-
+  
+  <video autoplay muted loop id="Welcome to David'S.mp4">
+  <source src="Welcome to David'S.mp4" type="video/mp4">
+  
+  
 <div class="center">
   <h2>David's Gaming Highlights.</h2>
 <h3>osu! gameplay (Preview)</h3>
